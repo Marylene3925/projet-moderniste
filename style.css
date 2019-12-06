@@ -130,3 +130,15 @@ ul {
     /* partie footer */
 
 /*Media queries*/
+@media screen and (min-width : 992){
+
+}
+@media screen and (min-width : 768) and (max-width:991){
+
+}
+@media screen and (min-width : 576)  and (max-width:767){
+
+}
+@media screen and (min-width : 575){
+
+}
