@@ -13,7 +13,9 @@
     
 }
 /*systeme couleur*/
-
+.color-white {
+color: var(--color-white);
+}
 
 body{
     margin: 0;
