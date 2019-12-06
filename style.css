@@ -51,6 +51,10 @@ body{
     justify-content: space-between;
 }
 
+.f-jc-center{
+    justify-content: center;
+}
+
     /* partie header */
 
 
@@ -59,9 +63,6 @@ body{
 
     /* partie footer */
 
-.col-footer-2{
-    width: 14%;
-}
 
 .bg-footer{
     background-color: #303030;
@@ -69,12 +70,19 @@ body{
     border-bottom: 1px solid black;
 }
 
+.col-footer-2{
+    width: 15%;
+    height: 306px;
+    
+}
+
+
     /* titres*/
 .h3-footer{
     font-size: 16px;
     color: #fff;
     font-weight: normal;
-    margin-bottom: ;
+    margin-bottom: 30px;
 }
 
 .titre-post-title{
@@ -88,6 +96,6 @@ body{
     font-size: 13px;
     color: #979797;
     font-weight: normal;
-    line-height: 16px;
-    
+    line-height: 20px;
+    width: 91%;
 }
