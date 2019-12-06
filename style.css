@@ -8,6 +8,7 @@
     --color-grey-4: #222;
     --color-grey-5: #151515;
     --color-grey-6: #333333;
+    --color-grey-7: #666666;
     --color-bordeaux-dark: #290000;
     --color-bordeaux-light: #660000;
     --color-black: #000000;
@@ -98,4 +99,20 @@ body{
     font-weight: normal;
     line-height: 20px;
     width: 91%;
+}
+
+.text-admin{
+    font-size: 10px;
+    color: #666666;
+    line-height: 15px;
+    font-weight: normal;
+    margin: 0 auto;
+}
+.admin{
+    color: #76c38f;
+}
+
+.date{
+    color: #979797;
+
 }
