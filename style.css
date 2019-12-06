@@ -81,6 +81,11 @@ body{
 .f-space-between{
     justify-content: space-between;
 }
+.a-items{
+    align-items: center;
+}
+
+
 
 
     /* partie header */
@@ -88,13 +93,10 @@ body{
 
     /* partie content */   
 
-}
 
     /* partie-1 */
 
-.partie-content{
-    height: 970px;
-}
+
 
 .projet-latest-work{
     display: flex;
@@ -102,27 +104,36 @@ body{
 }
 
 .service-title-1{
+    width: 224px;
     height: 305px;
-    width: 20%;
     padding: 20px;
 }
 
 .font-img-1{
     height: 120px;
     width: 120px;
-    
-}
-
-
-.service-title-2{
 
 }
 
     /* texte */
 
-.partie-content h2{
-   
+.partie-content p{
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 30px;
 }
+
+h2{
+margin-top: 0;
+margin-bottom:0;
+}
+.partie-content h2{
+    font-size: 32px;
+    font-weight: normal;
+    margin: 30px;
+}
+
+
 
 
 
