@@ -12,6 +12,8 @@
     --color-black: #000000;
     
 }
+/*systeme couleur*/
+
 
 body{
     margin: 0;
@@ -39,7 +41,7 @@ body{
 }
 
 
-/*systeme couleur*/
+
 
 /*systeme de flex*/
 
@@ -125,3 +127,4 @@ ul {
 
     /* partie footer */
 
+/*Media queries*/
