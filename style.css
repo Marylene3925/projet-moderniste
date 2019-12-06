@@ -1,0 +1,60 @@
+/* systeme de variable */
+:root {
+    --color-green: #76c38f;
+    --color-white: #fff;
+    --color-grey-1: #979797;
+    --color-grey-2: #303030;
+    --color-grey-3: #2b2b2b;
+    --color-grey-4: #222;
+    --color-grey-5: #151515;
+    --color-bordeaux-dark: #290000;
+    --color-bordeaux-light: #660000;
+    --color-black: #000000;
+    
+}
+
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* structure des containers */
+
+.container-large{
+    width: 100%;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*systeme de flex*/
+
+.d-flex{
+    display: flex;
+}
+
+.f-dir-row{
+    flex-direction: row;
+}
+
+.f-dir-col{
+    flex-direction: column;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-space-between{
+    justify-content: space-between;
+}
+
+    /* partie header */
+
+
+    /* partie content */
+    
+
+    /* partie footer */
+
