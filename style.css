@@ -76,6 +76,7 @@ body{
 .bg-footer-1{
     background-color: #303030;
     border-bottom: 1px solid black;
+    height: 388px;
 }
 
 .col-footer{
@@ -209,11 +210,10 @@ button{
     height: 100%;
 }
 
-.azerty{
+.center-copyright{
     height: 100%;
 }
 
-@media screen and (max-width : 960px){
-    
+@media screen and (max-width: 960px){
     
 }
