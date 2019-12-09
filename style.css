@@ -11,25 +11,17 @@
     --color-bordeaux-light: #660000;
     --color-black: #000000;
     
+
+
+
+
 }
-/*systeme couleur*/
-.color-white {
-color: var(--color-white);
-}
+
 
 body{
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
-
-/* structure des containers */
-
-.bg-color-bordeaux-dark{
-    background-color: var(--color-bordeaux-dark);
-}
-
 
 /* container */
 
@@ -41,9 +33,6 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
-
-
-
 
 /*systeme de flex*/
 
@@ -66,13 +55,19 @@ body{
     justify-content: space-between;
 }
 
-    /* partie header */
+
+
+
+
+
+
+
+/* partie HEADER */
 header{
     border-top:5px solid var(--color-green);
     height: 600px;
-
+    background-color: var(--color-bordeaux-dark);
 }
-
 
 ul {
     list-style: none;
@@ -115,26 +110,361 @@ ul {
     border-radius: 1000px;
     margin-left: 40%;
 }
-
-
-
-
-
-
-
-
-
-
-
 .font-size-13{
     font-size: 13px;
     font-weight:400;
 }
+
+    /*Menu*/
+    .t-underline-none{
+        text-decoration: none;
+    }
+
+    
+    .btn-hover-green{
+        color: var(--color-white);
+    
+    }
+    .btn-hover-green:hover{
+        background-color: var(--color-green);
+        color: var(--color-white);
+        display: inline;
+        border-radius: 10px;    
+    }
+
+    .btn-grey-hover:hover{
+     background-color: var(--color-grey-2);
+     color: var(--color-green);
+
+    }
+    /*Menu burger*/
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 5;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 4; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -77px 0 0 -300px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+.burger{
+    display: none;  
+}
+
+
     /* partie content */
     
 
 
-    /* partie footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -281,28 +611,7 @@ ul {
 
 
 /*CHLOE*/
-    /*Menu*/
-    .t-underline-none{
-        text-decoration: none;
-    }
 
-    
-    .btn-hover-green{
-        color: var(--color-white);
-    
-    }
-    .btn-hover-green:hover{
-        background-color: var(--color-green);
-        color: var(--color-white);
-        display: inline;
-        border-radius: 10px;    
-    }
-
-    .btn-grey-hover:hover{
-     background-color: var(--color-grey-2);
-     color: var(--color-green);
-
-    }
 
 /*margin, padding*/
 .margin-top-50{
@@ -318,16 +627,29 @@ ul {
 .padding-13-20{
     padding: 11px 20px 9px 20px;
 }
+
+
 /*Media queries*/
-@media screen and (min-width : 992px){
+
+
+@media screen  and (max-width:991px){
+    .burger{
+        display: inline-block;
+    }
+    
+    .lenav{
+        display: none;  
+
+    }
+}
+
+@media screen  and (max-width:767px){
 
 }
-@media screen and (min-width : 768px) and (max-width:991px){
+
+
+@media screen and (max-width : 575px){
+
 
 }
-@media screen and (min-width : 576px)  and (max-width:767px){
 
-}
-@media screen and (min-width : 575px){
-
-}

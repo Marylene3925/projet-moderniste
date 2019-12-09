@@ -23,7 +23,38 @@
                         <p class="logo">The Modernist</p>
                         <p class="icon">Free PSD Website Template</p>
                     </div>
-                    <nav class="d-flex">
+                    <nav class="burger" role="navigation">
+                        <div id="menuToggle">
+                          <!--
+                          A fake / hidden checkbox is used as click reciever,
+                          so you can use the :checked selector on it.
+                          -->
+                          <input type="checkbox" />
+                          
+                          <!--
+                          Some spans to act as a hamburger.
+                          
+                          They are acting like a real hamburger,
+                          not that McDonalds stuff.
+                          -->
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          
+                          <!--
+                          Too bad the menu has to be inside of the button
+                          but hey, it's pure CSS magic.
+                          -->
+                          <ul id="menu">
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>About</li></a>
+                            <a href="#"><li>Info</li></a>
+                            <a href="#"><li>Contact</li></a>
+                            <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                          </ul>
+                        </div>
+                </nav>
+                    <nav class="d-flex lenav">
                         <ul class="d-flex margin-top-50">
                            <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-green font-size-13 padding-13-20">HOME</a></li>
                            <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">STYLE DEMO</a></li>
@@ -113,8 +144,9 @@
         </div>
         <div class="container-large">
             <div class="container">
-                <div class="row">
+                <div class="row d-flex">
                     <div></div>
+                  
                     <div></div>
                 </div>
             </div>
