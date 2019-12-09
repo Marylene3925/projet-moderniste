@@ -134,6 +134,7 @@ ul {
 
 .font-size-13{
     font-size: 13px;
+    font-weight:400;
 }
     /* partie content */
     
@@ -309,13 +310,17 @@ ul {
         display: inline;
         border-radius: 10px;
     }
-    
+
 /*margin, padding*/
 .magin-top-35{
-    margin-top:35px;
+    margin-top:50px;
 }
+.margin-right-2{
+    margin-right: 2px;
+}
+
 .padding-13-20{
-    padding: 13px 20px 12px 20px;
+    padding: 11px 20px 9px 20px;
 }
 /*Media queries*/
 @media screen and (min-width : 992px){
