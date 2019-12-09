@@ -39,44 +39,69 @@
             <div class="row"></div>
         </div>
     </div>
+
+    <!------------ FOOTER ------------>
     <footer>
-        <div class="container-large bg-footer">
+        <div class="container-large bg-footer-1">
             <div class="container">
-                <div class="row d-flex f-dir-row f-jc-center">
-                    <div class="col-footer-2 ">
-                        <h3 class="h3-footer">From The Blog</h3>
+                <div class="row d-flex f-jc-center f-wrap">
+                    <div class="col-footer-1 ">
+                        <h3 class="h3-footer titre-1-footer">From The Blog</h3>
                         <h4 class="titre-post-title">Post Title</h4>
                         <p class="text-admin"><span class="admin">Admin</span>, domainname.com</br><span
                                 class="date">Friday, 6th April 2000</span>
                         </p>
-                        <p class="p-footer">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit
+                        <p class="p-col-1-footer">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit
                             intesque sed.
                             Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.
                             Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.
                         </p>
+                        <p><a href="#">Read More &#187;</a></p>
 
 
                     </div>
                     <div class="col-footer-2 ">
-                        <h3 class="h3-footer">Quick Links</h3>
+                        <h3 class="h3-footer titre-2-footer">Quick Links</h3>
+                        <ul class="nav-footer">
+                            <li class="li-footer"><a href="#">&#187; Lorem ipsum dolor sit</a></li>
+                            <li class="li-footer"><a href="#">&#187; Amet consectetur</a></li>
+                            <li class="li-footer"><a href="#">&#187; Praesent vel sem id</a></li>
+                            <li class="li-footer"><a href="#">&#187; Curabitur hendrerit est</a></li>
+                            <li class="li-footer"><a href="#">&#187; Aliquam eget erat nec sapien</a></li>
+                            <li class="li-footer"><a href="#">&#187; Cras id augue nunc</a></li>
+                            <li class="li-footer"><a href="#">&#187; Sed a nulla urna</a></li>
+                        </ul>
 
 
                     </div>
-                    <div class="col-footer-2 ">
-                        <h3 class="h3-footer">Latest Tweets</h3>
-                        <p class="p-footer">@namehere Justoid nonummy laoreet phasellent penatoque in antesque pellus
+                    <div class="col-footer-3 ">
+                        <h3 class="h3-footer titre-3-footer">Latest Tweets</h3>
+                        <p class="p-col-2-footer"><span class="namehere">@namehere</span> Justoid nonummy laoreet phasellent
+                            penatoque in antesque pellus
                             elis eget tincidunt.
                             Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
-                        <p class="p-footer"> @namehere Justoid nonummy laoreet phasellent penatoque in antesque pellus
+                        <p class="p-col-2-footer"><span class="namehere">@namehere</span> Justoid nonummy laoreet phasellent
+                            penatoque in antesque pellus
                             elis eget tincidunt.
                             Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago
                         </p>
 
                     </div>
-                    <div class="col-footer-2 ">
-                        <h3 class="h3-footer">Contact Us</h3>
+                    <div class="col-footer-4 ">
+                        <h3 class="h3-footer titre-4-footer">Contact Us</h3>
+                        <form action="traitement.php" method="POST">
+                            <input class="little-form" type="text" name="name" id="name" required
+                                placeholder="Full name">
+                            <input class="little-form" type="text" name="email" id="email" required
+                                placeholder="Email address">
+                            <input class="little-form" type="text" name="subject" id="subject" required
+                                placeholder="Subject">
 
+                            <label class="middle-form" for="message"></label>
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
 
+                            <button type="submit">Submit</button>
+                        </form>
                     </div>
 
                 </div>
@@ -84,11 +109,15 @@
         </div>
 
         <!--petit-footer-->
-        <div class="container-large">
-            <div class="container">
-                <div class="row">
-                    <div></div>
-                    <div></div>
+        <div class="container-large bg-footer-2">
+            <div class="container ">
+                <div class="row d-flex  f-wrap f-space-between">
+                    <div>
+                        <p class="copyright">Copyright &#9400 2013 Domain Name - All Rights Reserved</p>
+                    </div>
+                    <div>
+                        <p class="copyright">Template by OS Templates</p>
+                    </div>
                 </div>
             </div>
         </div>
