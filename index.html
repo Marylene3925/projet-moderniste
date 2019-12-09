@@ -5,33 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
+        <header class="bg-color-bordeaux-dark color-white">
 
-        <div class="container-large">
-            <div class="container">
-                <div class="row">
-                    <div>
-
+                <div class="container-large">
+                    <div class="container">
+                        <div class="row d-flex f-space-between">
+                            <div class="d-flex f-dir-col">
+                                <p class="logo">The Modernist</p>
+                                <p class="icon">Free PSD Website Template</p>
+                            </div>
+                            <nav class="burger" role="navigation">
+                                <div id="menuToggle">
+                                  <!--
+                                  A fake / hidden checkbox is used as click reciever,
+                                  so you can use the :checked selector on it.
+                                  -->
+                                  <input type="checkbox" />
+                                  
+                                  <!--
+                                  Some spans to act as a hamburger.
+                                  
+                                  They are acting like a real hamburger,
+                                  not that McDonalds stuff.
+                                  -->
+                                  <span></span>
+                                  <span></span>
+                                  <span></span>
+                                  
+                                  <!--
+                                  Too bad the menu has to be inside of the button
+                                  but hey, it's pure CSS magic.
+                                  -->
+                                  <ul id="menu">
+                                    <a href="#"><li>Home</li></a>
+                                    <a href="#"><li>About</li></a>
+                                    <a href="#"><li>Info</li></a>
+                                    <a href="#"><li>Contact</li></a>
+                                    <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                                  </ul>
+                                </div>
+                        </nav>
+                            <nav class="d-flex lenav">
+                                <ul class="d-flex margin-top-50">
+                                   <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-green font-size-13 padding-13-20">HOME</a></li>
+                                   <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">STYLE DEMO</a></li>
+                                   <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">FULL WIDTH</a></li>
+                                   <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">DROPDOWN</a></li>
+                                   <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">PORTFOLIO</a></li>
+                                   <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">GALLERY</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+        
+                        <div class="row owl-carousel owl-theme">
+                            <div class="d-flex slid">
+                                <div class="partioneslid item">
+                                    <h1>Cursus penati saccum nulla.</h1>
+                                    <p>
+                                        Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                                        Urnaultrices quis <br> curabitur phasellentesque congue magnis vestibulum quismodo nulla
+                                        et feugiat adipiscinia pellentum leo.
+                                    </p>
+                                    <div class="margin-top-20"><a href ="#"class="btn-grey-hover btn-green t-underline-none">Read More Here >></a></div>
+        
+                                </div>
+        
+                                <div class="imgslid">
+                                    <img src="img/photo1.jpg" alt="photo" width="380" height="380">
+                                </div>
+        
+                            </div>
+                            <div class="d-flex slid">
+                                <div class="partioneslid item">
+                                    <h1>Cursus penati saccum nulla.</h1>
+                                    <p>
+                                        Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                                        Urnaultrices quis <br> curabitur phasellentesque congue magnis vestibulum quismodo nulla
+                                        et feugiat adipiscinia pellentum leo.
+                                    </p>
+                                    <div class="margin-top-20"><a href ="#"class="btn-grey-hover btn-green t-underline-none">Read More Here >></a></div>
+                                </div>
+        
+                                <div class="imgslid">
+                                    <img src="img/photo1.jpg" alt="photo" width="380" height="380">
+                                </div>
+        
+                            </div>
+                            <div class="d-flex slid">
+                                <div class="partioneslid item">
+                                    <h1>Cursus penati saccum nulla.</h1>
+                                    <p>
+                                        Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                                        Urnaultrices quis <br> curabitur phasellentesque congue magnis vestibulum quismodo nulla
+                                        et feugiat adipiscinia pellentum leo.
+                                    </p>
+                                    <div class="margin-top-20"><a href ="#"class="btn-grey-hover btn-green t-underline-none">Read More Here >></a></div>
+        
+                                </div>
+        
+                                <div class="imgslid">
+                                    <img src="img/photo1.jpg" alt="photo" width="380" height="380">
+                                </div>
+        
+                            </div>
+                        </div>
+        
+        
                     </div>
-                    <nav>
-
-                    </nav>
                 </div>
-
-                <div class="row">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-        </div>
-
-    </header>
+        
+            </header>
 
     <div class="partie-content container-large bg-color-bordeaux-light d-flex">
         <div class="container">
@@ -109,25 +201,107 @@
 
 
     <footer>
-        <div class="container-large">
-            <div class="container">
-                <div class="row">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+            <div class="container-large bg-footer-1">
+                <div class="container">
+                    <div class="row d-flex f-space-between f-wrap">
+                        <div class="col-footer">
+                            <h3 class="h3-footer titre-1-footer">From The Blog</h3>
+                            <h4 class="titre-post-title">Post Title</h4>
+                            <p class="text-admin"><span class="admin">Admin</span>, domainname.com</br><span
+                                    class="date">Friday, 6th April 2000</span>
+                            </p>
+                            <p class="p-col-1-footer ">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
+                                elit
+                                intesque sed.
+                                Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.
+                                Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.
+                            </p>
+                            <p><a href="#">Read More &#187;</a></p>
+                        </div>
+    
+                        <div class="col-footer">
+                            <h3 class="h3-footer titre-2-footer">Quick Links</h3>
+                            <ul class="nav-footer">
+                                <li class="li-footer"><a href="#">&#187; Lorem ipsum dolor sit</a></li>
+                                <li class="li-footer"><a href="#">&#187; Amet consectetur</a></li>
+                                <li class="li-footer"><a href="#">&#187; Praesent vel sem id</a></li>
+                                <li class="li-footer"><a href="#">&#187; Curabitur hendrerit est</a></li>
+                                <li class="li-footer"><a href="#">&#187; Aliquam eget erat nec sapien</a></li>
+                                <li class="li-footer"><a href="#">&#187; Cras id augue nunc</a></li>
+                                <li class="li-footer"><a href="#">&#187; Sed a nulla urna</a></li>
+                            </ul>
+    
+    
+                        </div>
+                        <div class="col-footer">
+                            <h3 class="h3-footer titre-3-footer">Latest Tweets</h3>
+                            <p class="p-col-2-footer"><span class="namehere">@namehere</span> Justoid nonummy laoreet
+                                phasellent
+                                penatoque in antesque pellus
+                                elis eget tincidunt.
+                                Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago</p>
+                            <p class="p-col-2-footer"><span class="namehere">@namehere</span> Justoid nonummy laoreet
+                                phasellent
+                                penatoque in antesque pellus
+                                elis eget tincidunt.
+                                Nequatdui laorem justo a non tellus laoremut vitae doloreet 1 day ago
+                            </p>
+    
+                        </div>
+                        <div class="col-footer">
+                            <h3 class="h3-footer titre-4-footer">Contact Us</h3>
+                            <form action="traitement.php" method="POST">
+                                <input class="little-form" type="text" name="name" id="name" required
+                                    placeholder="Full name">
+                                <input class="little-form" type="text" name="email" id="email" required
+                                    placeholder="Email address">
+                                <input class="little-form" type="text" name="subject" id="subject" required
+                                    placeholder="Subject">
+    
+                                <label class="middle-form" for="message"></label>
+                                <textarea name="message" id="message" placeholder="Message"></textarea>
+    
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+    
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container-large">
-            <div class="container">
-                <div class="row">
-                    <div></div>
-                    <div></div>
+    
+            <!------------ PETIT-FOOTER ------------>
+            <div class="container-large bg-footer-2">
+                <div class="container container-footer ">
+                    <div class="row d-flex f-wrap f-space-between f-ai-center center-copyright">
+                        <div>
+                            <p class="copyright">Copyright &#9400 2013 Domain Name - All Rights Reserved</p>
+                        </div>
+                        <div>
+                            <p class="copyright">Template by OS Templates</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+     <!--script pour caroussel   -->
+     <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        </script>
 </body>
 
 </html>
