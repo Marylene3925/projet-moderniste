@@ -121,10 +121,11 @@ h2{
   margin-bottom:0;
   }
 
-.partie-content h2{
+.container-photo-service h2{
     font-size: 32px;
     font-weight: normal;
     margin-bottom: 15px;
+      
   }
 
 h3{
@@ -135,8 +136,8 @@ h3{
 .partie-content h3{
     font-size: 14px;
     font-weight: normal;
+    padding-top: 10px;
 }
-
 
 
     /* partie-1 */
@@ -159,9 +160,29 @@ h3{
     height: 305px;
 }
 
+
 .service-title-1:hover{
-background-color: #76c38f;
+    background-color: #76c38f;
 }
+
+
+.service-title-1:hover p{
+
+color:white;
+}
+
+
+.service-title-1:hover h2{
+
+color:white;
+}
+
+
+.service-title-1:hover .font-img-1{
+
+    background-color:white;
+}
+
 
 .text-service{
     margin-top: 270px;
@@ -178,9 +199,7 @@ background-color: #76c38f;
     height: 120px; 
 }
 
-.font-img-1:hover{
-    background-color: var(--color-white);
-}
+
 
 .font-img-2{
     margin-top: 20px;
@@ -203,20 +222,31 @@ background-color: #76c38f;
 
     /* partie-2*/
 
-.title{
-    text-align: center;
-    margin: 0; 
-    border-radius: 10px 10px 10px 10px;
-   padding: 20px;
-   
-     
+.title-lastest-work{    
+    margin: auto; 
+    border-radius: 10px;
+    padding: 10px 15px;
+    z-index: 10;
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    
 }
+
+.line{
+    height: 3px;
+    width:100%;
+    max-width: 960px;
+    background-color: var(--color-grey-6);
+    z-index: 1;
+    position: absolute;
+}
+
 
 .container-photo-lorem{
     margin-top: 50px;
     margin-bottom: 55px;
 }
-
 
 
 .projet-lorem{
@@ -226,8 +256,11 @@ background-color: #76c38f;
 }
 
 .projet-lorem:hover{
-    border: #76c38f solid 5px;
- 
+    border: #76c38f solid 5px; 
+}
+
+.projet-lorem:hover h3{
+    display: none;
 }
 
 .lorem-text{
@@ -237,59 +270,46 @@ background-color: #76c38f;
     height: 30px;
     text-align: center;
     background-size: cover;
-    margin: 175px 0;
+    margin: 160px 0;
+    width: 100%;
 }
 
-.lorem-text:hover{
-    display: none;
+
+
+.taille-image{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
 }
 
 .projet-1{
     background-image: url(image2.png);
-    width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
+  
 }
 .projet-2{
     background-image: url(image2.png);
-    width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
-    
+ 
 }
 
 .projet-3{
     background-image: url(image2.png);
-    width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
+  
 }
 
 .projet-4{
     background-image: url(image2.png);
-    width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
+
 }
 
 .projet-5{
     background-image: url(image2.png);
-    width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
+
 }
 
 .projet-6{
     background-image: url(image2.png);
-    width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
+
 }
-
-
-
-
-
 
 
 
