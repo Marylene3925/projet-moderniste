@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -20,8 +24,8 @@
                         <p class="icon">Free PSD Website Template</p>
                     </div>
                     <nav class="d-flex">
-                        <ul class="d-flex magin-top-35">
-                           <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green-fix font-size-13 padding-13-20">HOME</a></li>
+                        <ul class="d-flex margin-top-50">
+                           <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-green font-size-13 padding-13-20">HOME</a></li>
                            <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">STYLE DEMO</a></li>
                            <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">FULL WIDTH</a></li>
                            <li class="margin-right-2"><a href="#" class="nav-top color-white t-underline-none btn-hover-green font-size-13 padding-13-20">DROPDOWN</a></li>
@@ -31,30 +35,60 @@
                     </nav>
                 </div>
 
-                <div class="row">
+                <div class="row owl-carousel owl-theme">
                     <div class="d-flex slid">
-<!---Hemza-->
-                        
+                        <div class="partioneslid item">
+                            <h1>Cursus penati saccum nulla.</h1>
+                            <p>
+                                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                                Urnaultrices quis <br> curabitur phasellentesque congue magnis vestibulum quismodo nulla
+                                et feugiat adipiscinia pellentum leo.
+                            </p>
+                            <div class="margin-top-20"><a href ="#"class="btn-grey-hover btn-green t-underline-none">Read More Here >></a></div>
 
+                        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        <div class="imgslid">
+                            <img src="img/photo1.jpg" alt="photo" width="380" height="380">
+                        </div>
 
                     </div>
-                    <!-- <div></div>
-                    <div></div> -->
+                    <div class="d-flex slid">
+                        <div class="partioneslid item">
+                            <h1>Cursus penati saccum nulla.</h1>
+                            <p>
+                                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                                Urnaultrices quis <br> curabitur phasellentesque congue magnis vestibulum quismodo nulla
+                                et feugiat adipiscinia pellentum leo.
+                            </p>
+                            <div class="margin-top-20"><a href ="#"class="btn-grey-hover btn-green t-underline-none">Read More Here >></a></div>
+                        </div>
+
+                        <div class="imgslid">
+                            <img src="img/photo1.jpg" alt="photo" width="380" height="380">
+                        </div>
+
+                    </div>
+                    <div class="d-flex slid">
+                        <div class="partioneslid item">
+                            <h1>Cursus penati saccum nulla.</h1>
+                            <p>
+                                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                                Urnaultrices quis <br> curabitur phasellentesque congue magnis vestibulum quismodo nulla
+                                et feugiat adipiscinia pellentum leo.
+                            </p>
+                            <div class="margin-top-20"><a href ="#"class="btn-grey-hover btn-green t-underline-none">Read More Here >></a></div>
+
+                        </div>
+
+                        <div class="imgslid">
+                            <img src="img/photo1.jpg" alt="photo" width="380" height="380">
+                        </div>
+
+                    </div>
                 </div>
+
+
             </div>
         </div>
 
@@ -86,6 +120,26 @@
             </div>
         </div>
     </footer>
+    <!--script pour caroussel   -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
 </body>
 
 </html>

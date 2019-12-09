@@ -72,9 +72,7 @@ header{
     height: 600px;
 
 }
-p{
-    margin: 0;
-}
+
 
 ul {
     list-style: none;
@@ -98,28 +96,24 @@ ul {
     margin-top: 40px;
 }
 
-.btn-green{
+.btn-green {
     background-color: var(--color-green);
     color: var(--color-white);
-    display: inline;
     border-radius: 10px;
-    padding: 5px;
+    padding: 11px 20px 9px 20px;
 
 }
 .partioneslid{
-    width: 30%;
+    width: 40%;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 5%;
 }
 
-.imgslid {
-    margin-left: 30%;
-}
 
 .imgslid img{
     border: solid 15px grey;
     border-radius: 1000px;
+    margin-left: 40%;
 }
 
 
@@ -304,16 +298,18 @@ ul {
         border-radius: 10px;    
     }
 
-    .btn-hover-green-fix{
-        background-color: var(--color-green);
-        color: var(--color-white);
-        display: inline;
-        border-radius: 10px;
+    .btn-grey-hover:hover{
+     background-color: var(--color-grey-2);
+     color: var(--color-green);
+
     }
 
 /*margin, padding*/
-.magin-top-35{
+.margin-top-50{
     margin-top:50px;
+}
+.margin-top-20{
+    margin-top:20px;
 }
 .margin-right-2{
     margin-right: 2px;
