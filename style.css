@@ -112,6 +112,7 @@ header{
     border-top:5px solid var(--color-green);
     height: 600px;
     background-color: var(--color-bordeaux-dark);
+    width: 100%;
 }
 
 ul {
@@ -155,7 +156,7 @@ ul {
 .imgslid img{
     border: solid 15px grey;
     border-radius: 1000px;
-    margin-left: 40%;
+    margin-left: 20%;
 }
 .font-size-13{
     font-size: 13px;
@@ -336,7 +337,8 @@ ul {
 }
 
 .padding-13-20{
-    padding: 11px 20px 9px 20px;
+    padding: 7px;
+  
 }
 
 /**** partie content ****/ 
@@ -456,7 +458,7 @@ color:white;
 
 .line{
     height: 3px;
-    width:100%;
+    width:80%;
     max-width: 960px;
     background-color: var(--color-grey-6);
     z-index: 1;
@@ -663,21 +665,23 @@ color:white;
     
 /*Media queries*/
 
+@media screen  and (max-width:1170px){
 
+
+}
 @media screen  and (max-width:992px){
     .container-large{
-        min-width: 992px;
+        max-width: 920px;
+        width:100%
     }
     .container{
-        max-width:900px;
-        width:60%;
+        width: 80%;
         margin: 0 auto;
     }
-    .burger{
-        display: none;      }
+ 
     
     .lenav{
-        
+        display: none;
 
     }
     .font-size-13{
@@ -699,6 +703,26 @@ color:white;
         .imagslid-img{
             width: 45%;
             height: 45%;
+        }
+        .line{
+            height: 3px;
+            width:60%;
+            max-width: 960px;
+            background-color: var(--color-grey-6);
+            z-index: 1;
+            position: absolute;
+        }
+        .little-form, textarea{
+            border-radius: 10px;
+            background-color: var(--color-grey-4);
+            border: none;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            width: 200px;
+            color: var(--color-grey-1);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            outline: none;
+            font-size: 13px;
         }
         
 
