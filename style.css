@@ -70,7 +70,7 @@ body{
 
 .container{
     max-width: 960px;
-    width:80%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -148,7 +148,9 @@ ul {
     margin-top: auto;
     margin-bottom: auto;
 }
-
+.imgslid{
+    width:100%;
+}
 
 .imgslid img{
     border: solid 15px grey;
@@ -335,30 +337,6 @@ ul {
 
 .padding-13-20{
     padding: 11px 20px 9px 20px;
-}
-
-/*Media queries*/
-
-
-@media screen  and (max-width:991px){
-    .burger{
-        display: inline-block;
-    }
-    
-    .lenav{
-        display: none;  
-
-    }
-}
-
-@media screen  and (max-width:767px){
-
-}
-
-
-@media screen and (max-width : 575px){
-
-
 }
 
 /**** partie content ****/ 
@@ -681,3 +659,57 @@ color:white;
     .center-copyright{
         height: 100%;
     }
+
+    
+/*Media queries*/
+
+
+@media screen  and (max-width:992px){
+    .container-large{
+        min-width: 992px;
+    }
+    .container{
+        max-width:900px;
+        width:60%;
+        margin: 0 auto;
+    }
+    .burger{
+        display: none;      }
+    
+    .lenav{
+        
+
+    }
+    .font-size-13{
+        font-size: 9px;
+    }
+
+    .logo{
+        margin-top : 37px;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    ul {
+        list-style: none;
+        margin-left: 5px;
+        }
+        .padding-13-20{
+            padding: 9px;
+        }
+        .imagslid-img{
+            width: 45%;
+            height: 45%;
+        }
+        
+
+}
+
+@media screen  and (max-width:767px){
+
+}
+
+
+@media screen and (max-width : 575px){
+
+
+}
