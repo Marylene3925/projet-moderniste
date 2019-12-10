@@ -599,3 +599,59 @@ button{
 .center-copyright{
     height: 100%;
 }
+
+@media screen and (max-width:1170px){
+
+
+}
+@media screen  and (max-width:992px){
+    .container-large{
+        max-width: 920px;
+        width:100%
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .col-footer{
+        width: 39%;
+        margin: 0 auto;
+    }
+
+    .container-footer{
+        margin-left: 131px;
+        width: 66%;
+    }
+
+}    
+
+
+@media screen  and (max-width:767px){
+
+    .container-footer{
+        margin-left: 110px;
+        width: 71%;
+    }
+
+}
+
+
+@media screen and (max-width : 575px){
+
+    .col-footer{
+        width: 45%;
+    }
+
+    .container-footer{
+        margin-left: 68px;
+        width: 81%;
+    }
+
+    .copyright{
+        color: var(--color-grey-1);
+        font-size: 11px;
+    }
+    
+}
