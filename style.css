@@ -69,7 +69,8 @@ body{
 }
 
 .container{
-    width: 960px;
+    max-width: 960px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -90,7 +91,7 @@ body{
 .f-wrap{
     flex-wrap: wrap;
 }
-.f-space-between{
+.f-space-between, .f-space-between-m{
     justify-content: space-between;
 }
 .a-items{
@@ -111,6 +112,7 @@ header{
     border-top:5px solid var(--color-green);
     height: 600px;
     background-color: var(--color-bordeaux-dark);
+    width: 100%;
 }
 
 ul {
@@ -147,12 +149,14 @@ ul {
     margin-top: auto;
     margin-bottom: auto;
 }
-
+.imgslid{
+    width:100%;
+}
 
 .imgslid img{
     border: solid 15px grey;
     border-radius: 1000px;
-    margin-left: 40%;
+    margin-left: 20%;
 }
 .font-size-13{
     font-size: 13px;
@@ -333,31 +337,8 @@ ul {
 }
 
 .padding-13-20{
-    padding: 11px 20px 9px 20px;
-}
-
-/*Media queries*/
-
-
-@media screen  and (max-width:991px){
-    .burger{
-        display: inline-block;
-    }
-    
-    .lenav{
-        display: none;  
-
-    }
-}
-
-@media screen  and (max-width:767px){
-
-}
-
-
-@media screen and (max-width : 575px){
-
-
+    padding: 7px;
+  
 }
 
 /**** partie content ****/ 
@@ -379,7 +360,7 @@ h2{
 .container-photo-service h2{
     font-size: 32px;
     font-weight: normal;
-    margin-bottom: 15px;      
+    margin-bottom: 15px;  
 }
 
 h3{
@@ -398,6 +379,7 @@ h3{
     .container-photo-service{
     margin-top: 59px;
     margin-bottom: 60px;
+
 }
 
 .projet-latest-work{
@@ -477,7 +459,7 @@ color:white;
 
 .line{
     height: 3px;
-    width:100%;
+    width:80%;
     max-width: 960px;
     background-color: var(--color-grey-6);
     z-index: 1;
@@ -549,7 +531,7 @@ color:white;
     .bg-footer-1{
         background-color: #303030;
         border-bottom: 1px solid black;
-        height: 388px;
+        height: 100%;
     }
     
     .col-footer{
@@ -680,3 +662,106 @@ color:white;
     .center-copyright{
         height: 100%;
     }
+
+    
+/*Media queries*/
+
+@media screen  and (max-width:1170px){
+
+
+}
+@media screen  and (max-width:992px){
+    .container-large{
+        max-width: 920px;
+        width:100%
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+ 
+    
+    .lenav{
+        display: none;
+
+    }
+    .font-size-13{
+        font-size: 9px;
+    }
+
+    .logo{
+        margin-top : 37px;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    ul {
+        list-style: none;
+        margin-left: 5px;
+        }
+        .padding-13-20{
+            padding: 9px;
+        }
+        .imagslid-img{
+            width: 45%;
+            height: 45%;
+        }
+        .line{
+            height: 3px;
+            width:60%;
+            max-width: 960px;
+            background-color: var(--color-grey-6);
+            z-index: 1;
+            position: absolute;
+        }
+        .little-form, textarea{
+            border-radius: 10px;
+            background-color: var(--color-grey-4);
+            border: none;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            width: 200px;
+            color: var(--color-grey-1);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            outline: none;
+            font-size: 13px;
+        }
+
+    /**** partie content ****/
+    .projet-latest-work{
+        margin-bottom: 15px;
+    }
+    .projet-lorem{
+        display: flex; 
+    }
+    .container-photo-lorem{
+       align-items: center;    
+       justify-content: space-around; 
+    }
+   
+    /*Si pb avec les spaces between, tenter de régler ce probleme*/
+    .f-space-between-m{
+        justify-content:space-around;
+    }
+    
+    .container-photo-service{
+        width:80%;
+        margin: 20px auto;  
+      
+    }
+  
+}
+
+@media screen  and (max-width:767px){
+
+/**** partie-content ****/
+
+    
+}
+
+
+
+
+@media screen and (max-width : 575px){
+
+
+}

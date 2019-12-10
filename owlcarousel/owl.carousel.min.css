@@ -10,13 +10,13 @@
     color: #76c38f;
     position: absolute;
     bottom: 200px;
-    left: 960px;
+    /* left: 960px; */
 }
 .owl-prev span{
     font-size: 100px;
     color: #76c38f; 
     position: absolute;
     bottom: 200px;
-    left: -40px;
+    /* left: -40px; */
     
 }
