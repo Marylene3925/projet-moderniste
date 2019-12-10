@@ -473,7 +473,7 @@ body{
 .bg-footer-1{
     background-color: #303030;
     border-bottom: 1px solid black;
-    height: 388px;
+    padding-bottom: 25px;
 }
 
 .col-footer{
@@ -589,16 +589,11 @@ button{
 .bg-footer-2{
     background-color: var(--color-grey-3);
     border-top: 1px solid var(--color-grey-9);
-    height: 60px;
 }
 
 .copyright{
     color: var(--color-grey-1);
     font-size: 13px;
-}
-
-.container-footer {
-    height: 100%;
 }
 
 .center-copyright{
