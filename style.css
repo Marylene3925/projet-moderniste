@@ -606,7 +606,7 @@ button{
 }
 @media screen  and (max-width:992px){
     .container-large{
-        max-width: 920px;
+        max-width: 992px;
         width:100%
     }
     .container{
@@ -621,8 +621,8 @@ button{
     }
 
     .container-footer{
-        margin-left: 131px;
-        width: 66%;
+        margin-left: 143px;
+        width: 64%;
     }
 
 }    
@@ -631,15 +631,20 @@ button{
 @media screen  and (max-width:767px){
 
     .container-footer{
-        margin-left: 110px;
+        max-width: 100%;
+        margin-left: 117px;
         width: 71%;
+    }
+
+    .col-footer{
+        max-width: 100%;
+        width: 222px;
+        margin: 0 auto;
     }
 
     .copyright{
         color: var(--color-grey-1);
         font-size: 11px;
-        
-        
     }
     
 }
@@ -650,20 +655,17 @@ button{
     .col-footer{
         max-width: 100%;
         width: 222px;
-
     }
 
     .container-footer{
+        max-width: 100%;
         margin-left: 61px;
         width: 468px;
-        max-width: 100%;
-        
     }
 
     .copyright{
         color: var(--color-grey-1);
         font-size: 11px;
-    
     }
     
 }
