@@ -635,23 +635,35 @@ button{
         width: 71%;
     }
 
+    .copyright{
+        color: var(--color-grey-1);
+        font-size: 11px;
+        
+        
+    }
+    
 }
 
 
 @media screen and (max-width : 575px){
 
     .col-footer{
-        width: 45%;
+        max-width: 100%;
+        width: 222px;
+
     }
 
     .container-footer{
-        margin-left: 68px;
-        width: 81%;
+        margin-left: 61px;
+        width: 468px;
+        max-width: 100%;
+        
     }
 
     .copyright{
         color: var(--color-grey-1);
         font-size: 11px;
+    
     }
     
 }
