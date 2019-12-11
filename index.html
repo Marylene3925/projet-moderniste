@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Vins de France"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://exemple.com/exemple-titre-article"/>
+    <meta property="og:image" content="http://exemple.com/article_thumbnail.jpg"/>
+    <meta property="og:description" content="Cet article présente les vins français"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
@@ -23,9 +28,8 @@
                         <p class="logo">The Modernist</p>
                         <p class="icon">Free PSD Website Template</p>
                     </div>
-                    <nav class="burger" role="navigation">
+                    <nav class="burger">
                         <div id="menuToggle">
-
                             <input type="checkbox" />
 
 
@@ -35,24 +39,14 @@
 
 
                             <ul id="menu">
-                                <a href="#">
-                                    <li>Home</li>
-                                </a>
-                                <a href="#">
-                                    <li>Style Demo</li>
-                                </a>
-                                <a href="#">
-                                    <li>Full Width</li>
-                                </a>
-                                <a href="#">
-                                    <li>Dropdown</li>
-                                </a>
-                                <a href="#">
-                                    <li>Portfolio</li>
-                                </a>
-                                <a href="#">
-                                    <li>Gallery</li>
-                                </a>
+                                
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Style Demo</a></li>
+                                    <li><a href="#">Full Width</a></li>
+                                    <li><a href="#">Dropdown</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Gallery</a></li>
+
 
                             </ul>
                         </div>
@@ -236,8 +230,8 @@
                     <div class="col-footer">
                         <h3 class="h3-footer titre-1-footer">From The Blog</h3>
                         <h4 class="titre-post-title">Post Title</h4>
-                        <p class="text-admin"><span class="admin">Admin</span>, domainname.com</br><span
-                                class="date">Friday, 6th April 2000</span>
+                        <p class="text-admin"><span class="admin">Admin</span>, domainname.com<br><span
+                                class="date">Mercredi 11 Décembre 2019</span>
                         </p>
                         <p class="p-col-1-footer ">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
                             elit
@@ -281,14 +275,14 @@
                         <h3 class="h3-footer titre-4-footer">Contact Us</h3>
                         <form action="traitement.php" method="POST">
                             <input class="little-form" type="text" name="name" id="name" required
-                                placeholder="Full name">
+                                placeholder="Full name *">
                             <input class="little-form" type="text" name="email" id="email" required
-                                placeholder="Email address">
+                                placeholder="Email address *">
                             <input class="little-form" type="text" name="subject" id="subject" required
-                                placeholder="Subject">
+                                placeholder="Subject *">
 
                             <label class="middle-form" for="message"></label>
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                            <textarea name="message" id="message" placeholder="Message *"></textarea>
 
                             <button type="submit">Submit</button>
                         </form>
@@ -303,7 +297,7 @@
             <div class="container container-footer ">
                 <div class="row d-flex f-wrap f-space-between-s f-ai-center center-copyright">
                     <div class="d-flex">
-                        <p class="copyright">Copyright &#9400 2013 Domain Name - All Rights Reserved</p>
+                        <p class="copyright">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
                     </div>
                     <div class="d-flex">
                         <p class="copyright">Template by OS Templates</p>
@@ -331,6 +325,11 @@
             }
         })
     </script>
+
+    <script>
+    alert('coucou')
+    </script>
 </body>
 
 </html>
+

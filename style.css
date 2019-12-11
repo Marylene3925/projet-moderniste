@@ -1,6 +1,5 @@
 /* systeme de variable */
 :root {
-
     --color-green: #76c38f;
     --color-white: #fff;
     --color-grey-1: #979797;
@@ -15,7 +14,6 @@
     --color-bordeaux-dark: #290000;
     --color-bordeaux-light: #660000;
     --color-black: #000000;
-    
 }
 
     /* systeme de couleur */
@@ -810,7 +808,7 @@ color:white;
 
 @media screen and (max-width : 575px){
     header{
-        height: 450px;
+        height: 550px;
     }
     .col-footer{
         max-width: 100%;
@@ -831,14 +829,27 @@ color:white;
     }
 
     .imagslid-img, .imgslid{
-        width: 130px;
-        height:100%;
-        
+         width: 180px;
+        height:100%;        
+    }
+    .partioneslid{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .partioneslid h1{
+        width: 100%;
+        text-align: center;
+    }
+    .imgslid{
+        margin: 0 auto;
+    }
+    .slid{
+        flex-direction: column-reverse;
     }
     .btn-green{
         position: absolute;
-        padding: 3px 8px;
-        font-size: 10px;
+        padding: 5px 10px;
+        font-size: 13px;
     }
     #menuToggle{
         left: 15PX;
