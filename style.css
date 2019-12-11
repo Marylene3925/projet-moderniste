@@ -91,9 +91,10 @@ body{
 .f-wrap{
     flex-wrap: wrap;
 }
-.f-space-between{
+.f-space-between, .f-space-between-s, .f-space-between-m, .f-space-between-2{
     justify-content: space-between;
 }
+
 .a-items{
     align-items: center;
 }
@@ -534,6 +535,7 @@ color:white;
         background-color: #303030;
         border-bottom: 1px solid black;
         height: 100%;
+        padding-bottom: 25px;
     }
     
     .col-footer{
@@ -649,7 +651,7 @@ color:white;
     .bg-footer-2{
         background-color: var(--color-grey-3);
         border-top: 1px solid var(--color-grey-9);
-        height: 60px;
+        height: 61px;
     }
     
     .copyright{
@@ -669,7 +671,14 @@ color:white;
 /*Media queries*/
 
 @media screen  and (max-width:1170px){
-
+    .service-title-1{
+        padding:0px;
+         margin-bottom: 30px; 
+    }
+    
+    .f-space-between-m, .f-space-between-2{
+        justify-content: space-around;
+    }
 
 }
 @media screen  and (max-width:992px){
@@ -739,26 +748,110 @@ color:white;
         width: 200px;
         height:100%;
     }
-  
+    /* footer */
+    .col-footer{
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .container-footer{
+        margin-left: 143px;
+        width: 64%;
+    }
+    header{
+        height:400px;
+    }
     
 
 }
 
 
 @media screen  and (max-width:767px){
+    header{
+        height:400px;
+    }
+    
     .coucou{
     font-size: 1px;
     }
     .imgslid img{
         border: solid 5px grey;
     }
+    
     .btn-green{
         padding: 5px 10px;
     }
+    .service-title-1{
+        margin: 10px;
+    }
+    .container-footer{
+        max-width: 100%;
+        margin-left: 117px;
+        width: 71%;
+    }
+
+    .col-footer{
+        max-width: 100%;
+        width: 222px;
+        margin: 0 auto;
+    }
+
+    .copyright{
+        color: var(--color-grey-1);
+        font-size: 11px;
+    }
+    .f-space-between-2, .f-space-between-m{
+        justify-content: center;
+
+    }
+
 }
 
 
 @media screen and (max-width : 575px){
+    header{
+        height: 450px;
+    }
+    .col-footer{
+        max-width: 100%;
+        width: 222px;
+    }
 
+    .container-footer{
+        max-width: 100%;
+        margin-left: 61px;
+    }
 
+    .copyright{
+        color: var(--color-grey-1);
+        font-size: 11px;
+    }
+    .f-space-between-s, .f-space-between-m, .f-space-between-2{
+        justify-content: center;
+    }
+
+    .imagslid-img, .imgslid{
+        width: 130px;
+        height:100%;
+        
+    }
+    .btn-green{
+        position: absolute;
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+    #menuToggle{
+        left: 15PX;
+    }
+
+    .owl-dots button{ 
+        width: 32px;
+        height: 300px;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .owl-item{
+        margin-bottom: 210px;
+    }
 }
