@@ -122,16 +122,19 @@ ul {
 .logo{
     margin-top : 37px;
     margin-bottom: 0;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 
 .icon{
-    font-size: 11px;
+    font-size: 14px;
     color: #979797;
     margin: 0;
 }
 
+.white-space{
+    white-space: nowrap;
+}
 
 .btn-green {
     background-color: var(--color-green);
@@ -142,7 +145,7 @@ ul {
 }
 
 .slid{
-    margin-top: 40px;
+    margin-top: 0px;
     width: 80%;
     justify-content: space-evenly;
     margin-left: auto;
@@ -169,6 +172,9 @@ ul {
 }
 
     /*Menu*/
+.lenav{
+    margin-bottom: 40px;
+}
     .t-underline-none{
         text-decoration: none;
     }
@@ -339,7 +345,7 @@ ul {
 }
 
 .padding-13-20{
-    padding: 7px;
+    padding: 13px 20px;
   
 }
 
@@ -623,6 +629,14 @@ color:white;
         outline: none;
         font-size: 13px;
     }
+    .little-form:valid , textarea:valid{
+        border: solid 2px var(--color-green);
+    }
+    
+    .little-form:focus:invalid, textarea:focus:invalid{
+        border: solid 2px red;
+    }
+    
     
     .little-form{
         height: 33px;
