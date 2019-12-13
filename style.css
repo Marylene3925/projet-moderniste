@@ -664,6 +664,24 @@ color:white;
     .center-copyright{
         height: 100%;
     }
+    .reception-message{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+    .retour{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    div a button{
+            border: none;
+            border-radius: 10px;
+            height: 45px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        
+    }
 
     
 /*Media queries*/
@@ -768,10 +786,7 @@ color:white;
     header{
         height:400px;
     }
-    
-    .coucou{
-    font-size: 1px;
-    }
+
     .imgslid img{
         border: solid 5px grey;
     }
