@@ -354,7 +354,7 @@ p{
     margin: 0 30px;
 }
   
-h2{
+h2,h3{
   margin-top: 0;
   margin-bottom:0;
 }
@@ -365,15 +365,11 @@ h2{
     margin-bottom: 15px;      
 }
 
-h3{
-    margin-top: 0;
-    padding-bottom: 0;
-}
-
 .partie-content h3{
     font-size: 14px;
     font-weight: normal;
     padding-top: 10px;
+    position: relative;
 }
 
     /* partie-1 */
@@ -474,11 +470,13 @@ color:white;
 
 .projet-lorem{
     cursor: pointer;
-    border: solid 5px #fff;     
+    border: solid 5px #fff;  
+
 }
 
 .projet-lorem:hover{
     border: #76c38f solid 5px; 
+    
 }
 
 .projet-lorem:hover h3{
@@ -503,27 +501,28 @@ color:white;
 }
 
 .projet-1{
-    background-image: url(image2.png);  
+    background-image: url(img/img-paysag-01.jpg);   
+    background-size: cover;
 }
 .projet-2{
-    background-image: url(image2.png); 
-}
+    background-image: url(img/img-paysag-02.jpg);   
+    background-size: cover;}
 
 .projet-3{
-    background-image: url(image2.png);  
-}
+    background-image: url(img/img-paysag-03.jpg);   
+    background-size: cover;}
 
 .projet-4{
-    background-image: url(image2.png);
-}
+    background-image: url(img/img-paysag-04.jpg);   
+    background-size: cover;}
 
 .projet-5{
-    background-image: url(image2.png);
-}
+    background-image: url(img/img-paysag-05.jpg);   
+    background-size: cover;}
 
 .projet-6{
-    background-image: url(image2.png);
-}
+    background-image: url(img/img-paysag-06.jpg);   
+    background-size: cover;}
 
 /**** fin de la partie content ****/
 
