@@ -1,0 +1,27 @@
+A partir des élements fournis (maquette psd disponible https://www.onlineformapro-lms.com/ dans dossier partagé lecture seul 02-Intégration-one-page), vous devez l'intrégrer en respectant une stucture rigoureuse.
+
+Je vous laisse choisir les images à intégrer.
+
+
+
+Vous devez aussi réaliser le responsive à partir des médiaqueries ci-dessous :
+
+>=992 à --->min-width:992px;
+>=768 à 991 min-width :768px;
+>=576 à 767
+0 à 575
+
+
+Vous devez aussi gérer les balises métas et opengraph
+
+Vous devez valider le site sur le w3c
+
+Mettre en ligne le site.
+
+Petit plus à ajouter :
+
+Réaliser dans l'entête un carousel de trois articles en javascript.
+
+Tester en javascript le formulaire - Tous les champs doivent être obligatoire
+
+Attention pas de framework css

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.container-large{
+    width: 1170px;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-1{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+
+h1{
+    margin: auto 0;
+    font-size: 60px;
+}
+
+.manu{
+    border: solid 7px #660000;
+    border-radius: 200%;
+    margin-top: 10px; 
+    padding: 5px;  
+}
+
+.container-2{
+    display: flex;
+    margin-left: 200px;  
+}
+
+.smiley{
+    margin-left: 20px;
+}
+
+.container-3{
+    margin-top: 50px;
+    margin-left: 250px;
+}
